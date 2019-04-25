@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-scheduled',
@@ -8,11 +7,7 @@ import { Router } from '@angular/router';
 })
 export class ScheduledComponent implements OnInit {
 
-   constructor(private router: Router){
-  }
-
-  public onscheduledClick(){
-      this.router.navigate(['./update']);
+   constructor(){
   }
 
   ngOnInit() {

@@ -14,6 +14,17 @@ import { PendingComponent } from './pending/pending.component';
 import { SetScheduleComponent } from './set-schedule/set-schedule.component';
 import { FinalApplicantComponent } from './final-applicant/final-applicant.component';
 import { FailedApplicantComponent } from './failed-applicant/failed-applicant.component';
+import { LoginComponent } from './login/login.component';
+import { ChangepasswordComponent } from './changepassword/changepassword.component';
+import { FooterComponent } from './footer/footer.component';
+import { FirstpageComponent } from './firstpage/firstpage.component';
+import { ApplicantprofileComponent } from './applicantprofile/applicantprofile.component';
+import { ApplicantdetailsComponent } from './applicantdetails/applicantdetails.component';
+import { ApplicanPremedComponent } from './applican-premed/applican-premed.component';
+import { ApplicanPassportComponent } from './applican-passport/applican-passport.component';
+import { ApplicantMedicalComponent } from './applicant-medical/applicant-medical.component';
+import { ApplicantTesdaComponent } from './applicant-tesda/applicant-tesda.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +39,18 @@ import { FailedApplicantComponent } from './failed-applicant/failed-applicant.co
     PendingComponent,
     SetScheduleComponent,
     FinalApplicantComponent,
-    FailedApplicantComponent
+    FailedApplicantComponent,
+    LoginComponent,
+    ChangepasswordComponent,
+    FooterComponent,
+    FirstpageComponent,
+    ApplicantprofileComponent,
+    ApplicantdetailsComponent,
+    ApplicanPremedComponent,
+    ApplicanPassportComponent,
+    ApplicantMedicalComponent,
+    ApplicantTesdaComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-
 
 @Component({
   selector: 'app-pending',
@@ -9,12 +7,9 @@ import { Router } from '@angular/router';
 })
 export class PendingComponent implements OnInit {
 
-     constructor(private router: Router){
+     constructor(){
   }
 
-  public onpendingClick(){
-      this.router.navigate(['./setschedule']);
-  }
 
   ngOnInit() {
   }

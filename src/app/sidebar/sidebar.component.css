@@ -91,6 +91,8 @@
 .blank-space{
   height: 100%;
   background: #252525;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 .dropdown-menu{
   padding: 0px 0px;
